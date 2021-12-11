@@ -1,0 +1,21 @@
+<script>
+
+	const arr1 = ["Cecilie","Lone"];
+	const arr2 = ["Email","Tobias","Linus"];
+	const arr3 = ["Robin", "Morgan", "Lone"];
+
+	const myChildren = arr1.concat(arr2,arr3);
+
+	console.log(myChildren);
+
+	function unique(a){
+		return Array.from(new Set(a));
+	}
+
+	const uniqueMyChildren = unique(myChildren);
+
+	console.log(uniqueMyChildren);
+
+
+
+</script>
